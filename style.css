@@ -24,12 +24,11 @@ header {
     url(img/waterfall-compressed.jpg);
   background-size: cover;
   background-position: center;
-}
-.headline {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
 }
 
 /*   HEADINGS   */
@@ -42,7 +41,6 @@ h3 {
 h1 {
   color: #fff;
   font-size: 2.5rem;
-  margin-bottom: 1rem;
   word-spacing: 4px;
   letter-spacing: 1px;
 }
@@ -72,13 +70,13 @@ h3 {
 .btn:visited {
   display: inline-block;
   padding: 10px 30px;
-  font-weight: 300;
+  font-weight: 400;
   text-decoration: none;
   border-radius: 500px;
   border: 2px solid var(--main);
   color: #fff;
   transition: all 0.5s;
-  margin-left: 1rem;
+  background-color: var(--main);
 }
 .btn:hover,
 .btn:active {
