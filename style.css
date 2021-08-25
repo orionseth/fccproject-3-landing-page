@@ -21,7 +21,7 @@ html {
 header {
   height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
-    url(img/waterfall.jpeg);
+    url(img/waterfall-compressed.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -227,7 +227,7 @@ section {
 /*   BENEFITS SECTION   */
 .section-benefits {
   background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
-    url(img/zen-stones.jpg);
+    url(img/zen-stones-compressed.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -304,7 +304,7 @@ section {
 /*   FOOTER   */
 .footer {
   background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
-    url(img/zen-garden.jpg);
+    url(img/zen-garden-compressed.jpg);
   background-size: cover;
   background-position: center;
   color: #fff;
